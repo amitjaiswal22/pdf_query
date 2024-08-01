@@ -14,8 +14,7 @@ from langchain_community.document_loaders import PyPDFLoader
 import os
 from langchain_community.embeddings import OllamaEmbeddings
 
-from dotenv import load_dotenv
-load_dotenv()
+
 
 ##os.environ['HF_TOKEN']=os.getenv("HF_TOKEN")
 ##embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
